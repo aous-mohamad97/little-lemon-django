@@ -1,14 +1,19 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Capstone Project</title>
-</head>
-
-<body>
-    <h1 style="text-align:center;">Welcome ToLittleLemon Restaurant</h1>
-    <!--add this template tag-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon Restaurant - Home</title>
     {% load static %}
-    <img src="{% static 'restaurant/littlelemon.png' %}">
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Welcome to Little Lemon Restaurant</h1>
+    </header>
+    <main>
+        <section style="text-align: center;">
+            <img src="{% static 'restaurant/littlelemon.png' %}" alt="Little Lemon Restaurant Logo">
+        </section>
+    </main>
 </body>
-
 </html>
